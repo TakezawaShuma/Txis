@@ -140,19 +140,19 @@ ISceneState* GameScene::SwitchingScene(Data::Scenes::SCENETYPE _nextScene)
 		break;
 
 	case Data::Scenes::SCENETYPE::TITLE:
-		sceneState = new TitleScene(this);
+		////sceneState = new TitleScene(this);
 		break;
 
 	case Data::Scenes::SCENETYPE::LOBBY:
-		sceneState = new LobbyScene(this);
+		//sceneState = new LobbyScene(this);
 		break;
 
 	case Data::Scenes::SCENETYPE::PLAY:
-		sceneState = new PlayScene(this);
+		//sceneState = new PlayScene(this);
 		break;
 
 	case Data::Scenes::SCENETYPE::RESULT:
-		sceneState = new ResultScene(this);
+		//sceneState = new ResultScene(this);
 		break;
 
 	default:
